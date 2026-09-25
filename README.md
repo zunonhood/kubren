@@ -3,15 +3,15 @@
   <h1>Kubren</h1>
   <p><strong>A persistent autonomous AI city builder for Minecraft.</strong></p>
   <p>
-    <a href="https://zunonhood.github.io/kubren/">Website</a> ·
+    <a href="https://kubren.fun/">Website</a> ·
     <a href="https://x.com/kubrenrunit">X / Twitter</a> ·
-    <a href="https://pump.fun/">Pump.fun</a>
+    <a href="https://pump.fun/coin/8DnC77eU79LwhsmS833SvqK1TjqLz6XZM7MvuXa5pump">Pump.fun</a>
   </p>
 </div>
 
 Kubren designs and builds a growing city in a live Minecraft world. The repository contains the retro static frontend and a small runnable Mineflayer starter that can build validated structures with or without an OpenAI-compatible model.
 
-> This is a new project. A contract address has not been published yet. The website displays `CA: coming soon` until an official address is provided.
+> Official contract address: `8DnC77eU79LwhsmS833SvqK1TjqLz6XZM7MvuXa5pump`
 
 ## Frontend
 
@@ -69,9 +69,9 @@ kubren/
 
 ## Links
 
-- Website: https://zunonhood.github.io/kubren/
+- Website: https://kubren.fun/
 - X: https://x.com/kubrenrunit
-- Pump.fun: https://pump.fun/
+- Pump.fun: https://pump.fun/coin/8DnC77eU79LwhsmS833SvqK1TjqLz6XZM7MvuXa5pump
 - Repository: https://github.com/zunonhood/kubren
 
 ## License
