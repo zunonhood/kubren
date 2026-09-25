@@ -1,0 +1,20 @@
+{
+  "minecraft": {
+    "host": "127.0.0.1",
+    "port": 25565,
+    "username": "Kubren",
+    "auth": "offline"
+  },
+  "ai": {
+    "baseURL": "https://api.openai.com/v1",
+    "apiKey": "",
+    "model": "gpt-4o-mini"
+  },
+  "builder": {
+    "groundY": 72,
+    "originX": 0,
+    "originZ": 0,
+    "cellSize": 18,
+    "intervalMs": 30000
+  }
+}

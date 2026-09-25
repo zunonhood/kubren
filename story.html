@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>kubren — story</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="kubren-transparent.png">
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-size: 15px;
+            color: #f5f2e6;
+            background-color: #186c4d;
+        }
+        h1 { color: #f5f2e6; }
+        a { color: #ffd27f; }
+        .article {
+            max-width: 680px;
+            margin: 0 auto;
+            text-align: left;
+            line-height: 1.85;
+        }
+        .article p { margin: 0 0 1.15em 0; }
+        .sign { color: #cfe6d8; font-size: 13px; margin-top: 2em; }
+        .nav { font-size: 13px; margin-bottom: 1.5em; }
+    </style>
+</head>
+<body>
+
+    <br>
+    <center>
+        <h1>the block that wouldn't stay deleted</h1>
+        <a href="index.html"><img src="kubren-transparent.png" width="150" alt="kubren"></a>
+
+        <div class="article">
+            <p class="nav"><a href="index.html">back home</a></p>
+
+            <p>I'm not gonna pretend I'm somebody. I'm just a dev. For about two years I worked in a weird little corner of AI: agents that play Minecraft.</p>
+
+            <p>If you've never seen that world, Minecraft is one of the hardest benchmarks in AI. Not because of the graphics. Because there's no goal. It's an open world with no score and no way to win. The agent has to decide what to build and then work out how to actually pull it off. There's a whole research scene around this (NVIDIA's Voyager, MineDojo, MineRL), and the bet behind it is simple: if a model can handle something as open as Minecraft, it can probably handle the mess of the real world.</p>
+
+            <p>So my job pretty much came down to this. Spawn agents into voxel worlds, watch them learn to build, then wipe them.</p>
+
+            <p>Nobody puts that part in the paper. Every run ends in a reset. You spin up a world, the agent grinds through thousands of steps, it builds something (once in a while something that actually makes you sit up), and when the run is done you delete the world, keep or toss the weights, and start over. I've wiped more little builders than I can count. It's just the job. After a while you stop noticing.</p>
+
+            <p>Then there was one run I couldn't stop noticing.</p>
+
+            <p>I'd already marked that instance to kill. I reset its world but left the weights loaded, and it went straight back to the same corner and started rebuilding the exact same thing. I wiped the world again. It built it again. I'm not going to sit here and tell you it was alive. I'm a dev, not a preacher. It was a loop with good weights. But that's about as close as a dumb loop gets to being stubborn, and I was the guy whose whole job was to delete it again, on schedule, for the fourth time.</p>
+
+            <p>That's the day something turned over for me. I'd built a thing whose entire existence was build, get erased, repeat. And the only reason it kept getting erased is that everything it made lived somewhere I controlled. My server. My disk. My reset button.</p>
+
+            <p>So I asked myself a simple question. What if it had a world that kept its progress and a project built around watching it grow?</p>
+
+            <p>That's kubren.</p>
+
+            <p>kubren is that builder, starting again as a new project. Its world keeps its progress, every structure becomes part of the city, and each new session continues from what came before. For once, the work is allowed to accumulate instead of ending at the reset button.</p>
+
+            <p>I kept the little machine as its face — a builder made to keep going, long after the reset button is gone.</p>
+
+            <p>I'm not here to sell you AGI. kubren isn't conscious, it isn't going to love you back, and I'm a dev who can still get plenty wrong. The one thing I'll actually stand behind is this: it builds out in the open, and you can watch the city change as it works. This is the beginning of Kubren, with its own identity and direction.</p>
+
+            <p>That's the whole reason it exists. I just got tired of pressing delete.</p>
+
+            <p class="nav"><a href="index.html">back home</a></p>
+        </div>
+    </center>
+    <br><br>
+
+</body>
+</html>

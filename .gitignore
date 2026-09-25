@@ -1,0 +1,7 @@
+node_modules/
+npm-debug.log*
+*.log
+Thumbs.db
+.DS_Store
+kubren-starter/config.json
+kubren-starter/state.json
